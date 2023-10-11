@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.demo.SpringDbFirstApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-11T14:20:26" hostname="DESKTOP-RT8G380" time="2.726">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.demo.SpringDbFirstApplicationTests" time="2.726"/>
+  <system-out><![CDATA[21:20:19.811 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.demo.SpringDbFirstApplicationTests]: SpringDbFirstApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:20:20.096 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.SpringDbFirstApplication for test class com.example.demo.SpringDbFirstApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.0)
+
+2023-10-11T21:20:21.688+07:00  INFO 12404 --- [    Test worker] c.e.demo.SpringDbFirstApplicationTests   : Starting SpringDbFirstApplicationTests using Java 17.0.8 with PID 12404 (started by lecon in D:\Github\spring-db-first-application)
+2023-10-11T21:20:21.693+07:00  INFO 12404 --- [    Test worker] c.e.demo.SpringDbFirstApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2023-10-11T21:20:25.791+07:00  INFO 12404 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-10-11T21:20:26.646+07:00  INFO 12404 --- [    Test worker] c.e.demo.SpringDbFirstApplicationTests   : Started SpringDbFirstApplicationTests in 5.945 seconds (process running for 9.515)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

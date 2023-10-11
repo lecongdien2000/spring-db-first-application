@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title th:text="${companyName}"></title>
+	<link rel="stylesheet" href="/css/home-style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" 
+    href=
+"/packages/fontawesome-free-6.4.0-web/css/fontawesome.css">
+<link rel="stylesheet" 
+href=
+"/packages/fontawesome-free-6.4.0-web/css/fontawesome.min.css">
+
+<script src="https://kit.fontawesome.com/d7e6866079.js" crossorigin="anonymous"></script>
+    <script src="/js/home-js.js"></script>
+    </head>
+    <body>
+        <div class="content">
+            <form class="login-form" method="post" th:action="@{/login}">   
+                <h1 class="label">Login</h2>
+                    <div class="wrapper">
+                        <i class="fa-regular fa-user fa-fade fa-lg"></i>
+                        <b>Username</b>
+                        <input type="text" name="username" placeholder="username" required autofocus />
+                    </div>
+                        
+                    <div class="wrapper">
+                        <i class="fa-solid fa-key fa-fade fa-lg"></i>
+                        <b>Password</b>
+                        <input type="password" name="password" placeholder="password" required/>
+                        <div class="forgot-password-label" >
+                            <a>Forgot password?</a>
+
+                        </div>
+                    </div>
+                    <div class="wrapper">
+                        <button type="submit" class="btn btn-info">Login</button>
+                    </div>
+            </form>
+        </div>
+    </body>
+</html>
